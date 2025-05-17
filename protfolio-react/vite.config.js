@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/protflioreact/',  // ✅ use your repo name
+  base: '/protflioreact/',
   plugins: [react()],
 });
